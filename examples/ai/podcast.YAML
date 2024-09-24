@@ -1,0 +1,23 @@
+# Podcast Interview Configuration
+podcast:
+  info:
+    title: Artificial Intelligence for Natural Brains
+    description: A podcast where we talk about the future of AI and how it will affect our lives
+  host:
+    name: Brandon Bert
+    voice: en-US-BrandonNeural #A value from data/voices.json
+  guest:
+    name: Monica Gradient
+    voice: en-US-MonicaNeural #A value from data/voices.json
+  topics:
+    main: Artificial Intelligence
+    sub:
+      - ChatGPT
+      - Generative AI
+      - AGI
+      - AI Ethics
+  output:
+    duration: 5 #Episode length in minutes
+    language: english
+    audio: True #Set to False if you want to generate only the text script
+    folder: examples/ai/

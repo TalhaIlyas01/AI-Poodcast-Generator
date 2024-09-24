@@ -1,0 +1,24 @@
+# Podcast Interview Configuration
+podcast:
+  info:
+    title: Los que reímos al último
+    description: Un programa donde conversamos sobre la comedia, el humor y los que les gusta terminar el día con una sonrisa
+  host:
+    name: Alfonso Astorga
+    voice: es-US-AlonsoNeural #A value from data/voices.json
+  guest:
+    name: Penelope Antenas
+    voice: es-CO-SalomeNeural #A value from data/voices.json
+  topics:
+    main: Las hormigas y la comedia
+    sub:
+      - ¿Pueden hablar las hormigas?
+      - ¿Pueden las hormigas hacer comedia?
+      - ¿Sobre que se ríen las hormigas?
+      - Cuentanos un chiste clásico que hagan las hormigas.
+      - Nombre un comediante hormiga famoso.
+  output:
+    duration: 5 #Episode length in minutes
+    language: spanish
+    audio: True #Set to False if you want to generate only the text script
+    folder: examples/ants/
